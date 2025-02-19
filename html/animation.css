@@ -1,0 +1,36 @@
+div {
+    height: 200px;
+    width: 200px;
+    animation: colorAnimation 2s ease-out 0s infinite normal;
+}
+
+@keyframes colorAnimation {
+    0% {
+        background-color: red;
+        width: 200px;
+    }
+
+    25% {
+        background-color: blue;
+        width: 410px;
+    }
+
+    50% {
+        background-color: green;
+        width: 620px;
+    }
+
+    75% {
+        background-color: yellow;
+        width: 830px;
+    }
+
+    100% {
+        background-color: orange;
+        width: 1040px;
+    }
+}
+
+@media screen {
+    
+}
